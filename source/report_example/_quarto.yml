@@ -8,7 +8,7 @@ project:
   - '*.qmd'
   - '!LICENSE.md'
   - '!README.md'
-  output-dir: output/report_example
+  output-dir: ../../output/report_example
   post-render: _extensions/inbo/flandersqmd-book/filters/post_render.R
 execute:
   echo: false
@@ -70,15 +70,15 @@ book:
       href: https://www.facebook.com/INBOVlaanderen/
     left:
     - text: Cover
-      file: index.md
+      file: index.qmd
     - text: Recommendations
-      file: recommendations.md
+      file: recommendations.qmd
     - text: Introduction
-      file: introduction.md
+      file: introduction.qmd
   chapters:
-  - index.md
-  - samenvatting.md
-  - recommendations.md
-  - introduction.md
-  - bibliography.md
+  - index.qmd
+  - samenvatting.qmd
+  - recommendations.qmd
+  - introduction.qmd
+  - bibliography.qmd
 bibliography: references.bib
