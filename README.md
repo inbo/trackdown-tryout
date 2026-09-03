@@ -10,5 +10,7 @@ Research Institute for Nature and Forest (INBO)[^cph][^fnd]
 
 This repository provides a minimal infrastructure to try out using the [`trackdown`](https://claudiozandonella.github.io/trackdown/) R package for collaborative writing.
 The package allows to collaborate on a dynamic report created in R via the Google Docs interface.
-For the suggested workflow on Google Drive see [this readme file](https://drive.google.com/file/d/1vQbgKEDwqljkTj2jYPgOMAkv0Vrd8ql5/view?usp=sharing).
 To create the dynamic report the R package [`flandersqmd`](https://github.com/inbo/flandersqmd) is used. 
+
+A simple workflow is demonstrated in the R scripts contained in the `source` folder. 
+For the suggested workflow on Google Drive see [this readme file](https://drive.google.com/file/d/1vQbgKEDwqljkTj2jYPgOMAkv0Vrd8ql5/view?usp=sharing).
