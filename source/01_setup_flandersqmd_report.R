@@ -6,3 +6,6 @@ install.packages(
 
 # create a report skeleton
 flandersqmd::create_report(path = "source", reportname = "report_example")
+
+# update report skeleton, at least:
+# convert report files to .qmd and update the __quarto.yml file accordingly
